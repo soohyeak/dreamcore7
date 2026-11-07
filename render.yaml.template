@@ -1,5 +1,5 @@
 version: 1
 services:
   - type: static_site
-    name: dreamcore-static-site
-    static_site_name: dreamcore-static-site
+    name: dreamcore-static-tablet
+    static_site_name: dreamcore-static-tablet

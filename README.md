@@ -1,3 +1,3 @@
-Dreamcore Horror Skeleton - Static Site Deployment Template
+Dreamcore Horror Skeleton - Tablet Starter (Static/Docker Ready)
 
-This template demonstrates a static-site deployment approach via Render. Replace Build/WebGL with your actual Unity WebGL build assets.
+This starter provides a minimal repository skeleton to deploy a Unity WebGL build on Render. Replace Build/WebGL with your actual Unity WebGL assets.
