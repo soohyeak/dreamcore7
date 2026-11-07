@@ -1,5 +1,5 @@
 version: 1
 services:
   - type: static_site
-    name: dreamcore-allinone-tablet
-    static_site_name: dreamcore-allinone-tablet
+    name: dreamcore-static-site
+    static_site_name: dreamcore-static-site
