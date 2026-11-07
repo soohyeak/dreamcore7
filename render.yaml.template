@@ -1,0 +1,5 @@
+version: 1
+services:
+  - type: static_site
+    name: dreamcore-allinone-tablet
+    static_site_name: dreamcore-allinone-tablet

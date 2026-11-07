@@ -1,0 +1,2 @@
+using UnityEngine; using System.Collections;
+public class CCTVController : MonoBehaviour { public Camera cctvCamera; public MonoBehaviour playerController; public void StartWatch(){ if(cctvCamera) cctvCamera.enabled=true; if(playerController) playerController.enabled=false; StartCoroutine(WatchDuration(15f)); } IEnumerator WatchDuration(float seconds){ yield return new WaitForSeconds(seconds); if(cctvCamera) cctvCamera.enabled=false; if(playerController) playerController.enabled=true; } }

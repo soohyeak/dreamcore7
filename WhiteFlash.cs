@@ -1,0 +1,2 @@
+using UnityEngine; using UnityEngine.UI; using System.Collections;
+public class WhiteFlash : MonoBehaviour { public CanvasGroup canvasGroup; public float duration = 0.8f; public void Trigger(){ StartCoroutine(Flash()); } IEnumerator Flash(){ if (canvasGroup){ canvasGroup.alpha = 1f; float t=0; while(t<duration){ t+=Time.deltaTime; canvasGroup.alpha = 1f - t/duration; yield return null;} canvasGroup.alpha = 0f; } yield break; } }
